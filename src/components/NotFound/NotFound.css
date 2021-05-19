@@ -1,0 +1,14 @@
+.user-not-found {
+  background-color: #f9f9f9;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: #808080;
+}
+
+.user-not-found img {
+  margin-bottom: 30px;
+}

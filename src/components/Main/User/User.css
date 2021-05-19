@@ -1,0 +1,83 @@
+.user h1 {
+  margin: 20px 0;
+}
+
+.user a {
+  margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #0064eb;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 280px;
+}
+
+.follow {
+  margin-top: 30px;
+  display: flex;
+}
+
+.follow p {
+  margin-left: 5px;
+}
+
+.following p {
+  margin-left: 5px;
+}
+
+.followers {
+  display: flex;
+  align-items: center;
+}
+
+.following {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .user {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .user {
+    margin-bottom: 20px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 190px;
+  }
+
+  .user h1 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .user a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0064eb;
+  }
+
+  .follow {
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .follow p {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+
+  .following p {
+    font-size: 12px;
+    margin-left: 5px;
+  }
+}

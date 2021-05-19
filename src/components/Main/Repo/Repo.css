@@ -1,0 +1,152 @@
+.repo {
+  padding-left: 80px;
+  width: 100%;
+}
+
+.repo h1 {
+  padding-bottom: 32px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+.card--inner {
+  padding: 32px;
+}
+
+.card a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #0064eb;
+  font-weight: 500;
+}
+
+.card p {
+  font-size: 16px;
+  padding-top: 15px;
+}
+
+/* Pagination styles */
+
+.pageCount {
+  display: flex;
+  float: right;
+  margin-top: 10px;
+}
+
+.pageCount p {
+  color: #808080;
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.paginationBtn {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  padding-right: 20px;
+}
+
+.paginationBtn a {
+  padding: 8px 10px;
+  margin-left: 8px;
+  border-radius: 5px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.paginationBtn a:hover {
+  color: #ffffff;
+  background-color: #0064eb;
+}
+
+/* .previousBtn {
+}
+
+.nextBtn {
+}
+
+.paginationDisabled {
+} */
+
+.paginationActive a {
+  color: #ffffff;
+  background-color: #0064eb;
+}
+
+@media screen and (max-width: 1400px) {
+  .repo {
+    padding-left: 10px;
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .repo {
+    padding-left: 10px;
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .repo {
+    padding-left: 10px;
+    width: 100%;
+  }
+
+  .repo h1 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+
+  .card {
+    background-color: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    width: 95%;
+  }
+
+  .card--inner {
+    padding: 15px;
+    word-break: break-all;
+  }
+
+  .card a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #0064eb;
+    font-weight: 400;
+  }
+
+  .card p {
+    font-size: 12px;
+    padding-top: 10px;
+  }
+
+  .paginationBtn a {
+    padding: 1px 2px;
+    margin-left: 4px;
+    border-radius: 5px;
+    color: #808080;
+    cursor: pointer;
+  }
+
+  .pageCount {
+    display: flex;
+  }
+
+  .pageCount p {
+    color: #808080;
+    font-size: 12px;
+    padding: 4px 15px 0 0;
+  }
+
+  .paginationBtn {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+  }
+}
